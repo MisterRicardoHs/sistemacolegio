@@ -14,6 +14,7 @@
         <div class="col-xs-12 col-md-4 col-lg-4">
             <form action="registrar.php" method="POST">
             <?php 
+            
                 if(isset($_GET['mensaje']) && $_GET['mensaje'] == "error"){
                     echo "<span style='color:red'>Error de usuario</span>";
                 }else if(isset($_GET['mensaje']) && $_GET['mensaje'] == "ok"){

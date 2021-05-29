@@ -10,6 +10,7 @@
         $idpadre = $ini['id_padre'];
     }
     
+    
     if($iniciar){
         header('Location:panel.php?id='.$idpadre);
     }else{

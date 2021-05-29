@@ -7,6 +7,7 @@
         if($elimina){
             $registra = $objeto->registroCarril($carril,$idpadre,1);
     
+            
             if($registra){
                 header('Location:panel.php?mensaje=ok&id='.$idpadre);
             }else{

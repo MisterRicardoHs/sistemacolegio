@@ -7,6 +7,7 @@
 		private $dbname = "parcial";
 		private $user = "root";
 		private $pass = "";
+		
 		 function __construct(){
 			try{
 			parent::__construct("$this->type:host=$this->host;dbname=$this->dbname",$this->user,$this->pass);

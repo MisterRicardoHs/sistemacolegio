@@ -15,6 +15,7 @@
             header('Location:registro.php?mensaje=error');
         
         }
+        
     }
 
 ?>

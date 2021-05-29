@@ -6,6 +6,7 @@
     $idpadre = $_POST['idpadre'];
         $objeto = new admin();
       
+        
             $registra = $objeto->registroHijo($nombre,$identi,$seccion,$idpadre);
     
             if($registra){

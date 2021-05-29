@@ -6,6 +6,7 @@
       
             $registra = $objeto->eliminarHijo($idhijo);
     
+            
             if($registra){
                 header('Location:panel.php?mensaje=oki&id='.$idpadre);
             }else{

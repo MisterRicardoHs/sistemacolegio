@@ -11,6 +11,7 @@
 <body>
     <div class="container">
         <div class="row mt-5">
+        
         <hr class="mt-5">
         <h3 class="text-center">Sistema Para Recoger Estudiantes</h3>
         <hr class="mb-5">

@@ -13,6 +13,7 @@
             }else{
                 $color = "green";
             }
+            
             echo "<tr style='background:".$color."'>";
                 echo "<td>".$con['nombre']."</td>";
             echo "</tr>";

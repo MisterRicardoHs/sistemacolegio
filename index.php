@@ -33,6 +33,7 @@
                            <input type="submit" class="btn btn-success" value="Ingresar">
                         </div>
                     </div>
+                    
                         <div class="card-footer">
                              <a href="registro.php">Registrarse</a>
                         </div>

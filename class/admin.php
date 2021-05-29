@@ -15,6 +15,7 @@
 						$result=$query->fetchAll(\PDO::FETCH_ASSOC);
 						return $result;
 						}
+						
 
 					public function registroPadres($nombre, $cedula, $correo, $clave){
 						$id = NULL;

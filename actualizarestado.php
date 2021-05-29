@@ -9,5 +9,6 @@
         }else{
             header('Location:panel.php?mensaje=erroro&id='.$idpadre);
         }
+        
 
 ?>

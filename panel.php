@@ -84,6 +84,7 @@
                                     </div>
                                 </div>
 
+
                                 <input type="hidden" name="idpadre" value="<?php echo $_GET['id']?>">
                                 <?php if(isset($_GET['mensaje']) && $_GET['mensaje'] != "ok" || !isset($_GET['mensaje'])){?>
                                 <input type="submit" class="btn btn-success" value="Llegué" style="width:35%;margin-left:30%;margin-top:4%">
